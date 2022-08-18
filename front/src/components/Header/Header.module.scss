@@ -1,0 +1,21 @@
+.main {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.inputContainer {
+  width: 50%;
+  margin: 25px auto;
+  position: relative;
+  @media (max-width: 756px) {
+    width: 75%;
+  }
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 75%;
+    margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,18 @@
+.table {
+  width: 75%;
+  @media (max-width: 756px) {
+    width: 100%;
+  }
+  margin: 25px auto;
+  border-collapse: collapse;
+  table,
+  th,
+  td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  td button {
+    margin: 0px 2px;
+  }
+}
